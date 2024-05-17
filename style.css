@@ -109,6 +109,7 @@ header.container{
 .btn-secondary{
     border: 1px #1de7ea solid;
     color: #fff;
+    visibility: hidden;
 }
 nav{
     display: flex;
@@ -567,6 +568,7 @@ footer input{
     padding: 0.7em;
     max-width: 100%;
     border-radius: 5px;
+    color: #fff;
 }
 footer hr{
     border: 1px #1b2039 solid;
@@ -579,7 +581,7 @@ footer p{
     position: relative;
     overflow: hidden;
 }
-.copyright-background{
+/* .copyright-background{
     position: absolute;
     top: 0;
     left: 0;
@@ -588,7 +590,7 @@ footer p{
     background-image: linear-gradient(to right, #472847, #ff0080);
     clip-path: polygon(0 0, 100% 15%, 100% 80%, 0 100%);
     z-index: -1;
-}
+} */
 .copyright-content{
     position: relative;
     z-index: 1;

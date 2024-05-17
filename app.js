@@ -11,4 +11,4 @@ menuBtn.addEventListener('click', ()=>{
 window.addEventListener('DOMContentLoaded', function(){
     let displaymenu = menu.map(function(), ClipboardItem)
     console.log(ClipboardItem);
-})
+});
